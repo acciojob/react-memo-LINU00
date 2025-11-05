@@ -34,7 +34,7 @@ export default function ReactMemo() {
         onChange={(e) => setText(e.target.value)}
       />
 
-      
+    
       <button onClick={addSkill} style={{ marginLeft: 8 }}>
         Add Skill
       </button>
