@@ -26,7 +26,7 @@ export default function UseMemo() {
   }, [custom]);
 
   const addDefaultTodo = () => {
-   
+  
     setTodos((t) => [...t, "new todo"]);
   };
 
@@ -41,7 +41,7 @@ export default function UseMemo() {
     <section>
       <h2>useMemo demo</h2>
 
-     
+    
       <button onClick={addDefaultTodo}>Add Todo</button>
 
       <button onClick={() => setCount((c) => c + 1)}>Increment</button>
