@@ -1,2 +1,13 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from "react";
+import UseMemo from "./UseMemo";
+import ReactMemo from "./ReactMemo";
 
+export default function App() {
+  return (
+    <div id="main" className="container">
+      <h1>Task Management App (React Memo)</h1>
+      <UseMemo />
+      <ReactMemo />
+    </div>
+  );
+}
